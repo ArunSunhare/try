@@ -8,9 +8,9 @@ function banner() {
 
    </div>
     
-   <div className='hy'><h1 className='iam'>Hi! I am Arun</h1></div>
-  <div className='mt'><h className='ui '>UI Designer 📐</h>
-  </div>
+   <div className='hy '><h1 className='iam'>Hi! I am  Arun</h1></div>
+  <main className='mt '><h className='ui  '>UI Designer 📐</h>
+  </main>
   <div className='mrn'>
     <h className='mr'>MERN Developer</h>
     </div>

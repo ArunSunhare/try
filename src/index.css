@@ -11,7 +11,7 @@
 .nav{
     height: 100%;
     width: 100%;
-    background: linear-gradient(45deg,#d2001a,#7462ff,#f48e21,#23d5ab);
+    background: linear-gradient(45deg,#d2001a,#7462ff,#23d5ab);
     background-size: 300% 300%;
     animation: color 15s ease-in-out infinite;
 }
@@ -54,7 +54,7 @@
    
 }
 .hy{
-    margin-left: 28rem;
+    margin-left: 25rem;
     margin-top: -10rem;
     font-family: sans-serif;
     font-size: 100%;
@@ -69,7 +69,7 @@
     -webkit-backdrop-filter: blur(7px);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
-    
+    animation: float 3s ease-in-out infinite;
 }
 .iam{
    font-size: x-large;
@@ -87,7 +87,7 @@
     /* animation: float 3s ease-in-out infinite; */
   }
   
-  /* @keyframes float {
+  @keyframes float {
     0% {
       box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.11);
       transform: translatey(0px);
@@ -100,7 +100,7 @@
       box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.137);
       transform: translatey(0px);
     }
-} */
+}
 
 
 
@@ -114,12 +114,13 @@
     margin-left: -10px;
 }
 .dp{
-    margin-left: 18rem;
+    margin-left: 17rem;
     margin-top: 32rem;
     font-size: 450%;
     font-family: sans-serif;
     font-weight: bold;
     color: rgb(241, 236, 236);
+    opacity: 80%;
     
 }
 .ui{
@@ -135,7 +136,7 @@
    -webkit-backdrop-filter: blur(7px);
    border-radius: 10px;
    border: 1px solid rgba(255, 255, 255, 0.18);
- 
+   /* animation: float 3s ease-in-out infinite; */
  }
  
  /* @keyframes float {
@@ -154,9 +155,9 @@
 
 .mt{
     margin-top: -10rem;
-    
+    /* animation: float 3s ease-in-out infinite; */
 
- } @keyframes float {
+ /* } @keyframes float {
         0% {
           box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.11);
           transform: translatey(0px);
@@ -168,8 +169,8 @@
         100% {
           box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.137);
           transform: translatey(0px);
-        } 
-    }
+        } */
+    } 
 .mrn{
     margin-top:10rem;
     /* background: rgba(255, 255, 255, 0.3); */
@@ -178,6 +179,7 @@
     /* -webkit-backdrop-filter: blur(7px); */
     /* border-radius: 10px; */
     /* border: 1px solid rgba(255, 255, 255, 0.18); */
+    /* animation: float 3s ease-in-out infinite; */
    
 }    
 .mr{
@@ -211,3 +213,22 @@
     }
     
 }
+.work{
+    font-size: 20px;
+  color: var(--white) !important;
+  font-weight: 500;
+  font-family: var(--font);
+  margin-left: 42rem;
+}
+.a{
+    color: aliceblue;
+    opacity: 70%;
+}
+/* div.line{
+    height: 5rem;
+  border-left: 2px solid #f92e2e;
+  opacity: 30%;
+  padding: 0;
+  display: flex;
+  cursor: pointer;
+} */
