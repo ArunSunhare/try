@@ -31,7 +31,15 @@ function banner2() {
             <div className='skills'>  A great knowledge of HTML / CSS, Javascript and <br></br>
                  React.js. I make responsive applications with <br></br>
                   Bootstrap with interactive UI's designs.</div>
-                  </div>
+                  </div>   
+           </div>
+           <div className='ui'>
+           <div className='skill1'>
+            <h className='developer2'> Developer Skills </h><br></br>
+            <div className='skills2'>  A great knowledge of HTML / CSS, Javascript and <br></br>
+                 React.js. I make responsive applications with <br></br>
+                  Bootstrap with interactive UI's designs.</div>
+                  </div>   
            </div>
     </div> 
     </div>
